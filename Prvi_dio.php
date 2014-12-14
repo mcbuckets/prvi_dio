@@ -130,12 +130,6 @@ function minVal($arr)
 }
 
 /*
-5. Peti zadatak
-
-Napišite funkciju koja prima dva niza znakova (stringa) i vraća najduži zajednički niz (substring).
-
-
-
 
 6. zadatak
 
