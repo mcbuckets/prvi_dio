@@ -23,7 +23,7 @@ function isPalindrome($test_string)
         $length++;
     }
 
-    if (0 == $length) {
+    if (0 == $length || 1 == $length) {
         return true;
     }
 
