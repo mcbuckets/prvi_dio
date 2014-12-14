@@ -7,7 +7,7 @@ Napiši funkciju koja kao parametar prima string, te kao rezultat vraæa true ak
 palindrom. U suprotnom vraæa false.
 
  *******************************************************************************************
-Funkcija æe vraæati ispravne rezultate za stringove koji ne sadrže interpunkciju,
+Funkcija će vraćati ispravne rezultate za stringove koji ne sadrže interpunkciju,
 razmake i mješovita slova(mala i velika), iako se može dogoditi da i za takav string da ispravan rezultat.
 Problem interpunkcije i sl. se može riješiti npr. korištenjem regularnih izraza.
  *******************************************************************************************
