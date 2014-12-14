@@ -49,13 +49,13 @@ Napiši funkciju koja prima dva integer parametra n i m, te kao rezultat vraæa 
 
  */
 
-function power($x, $y)
+function power($n, $m)
 {
-    if ($y > 0) {
-        return $x * power($x, $y - 1);
-    } else if ($y < 0)//za negativne eksponente
+    if ($m > 0) {
+        return $n * power($n, $m - 1);
+    } else if ($m < 0)//za negativne eksponente
     {
-        return 1 / $x * power($x, $y + 1);
+        return 1 / $n * power($n, $m + 1);
     } else {
         return 1;
     }
